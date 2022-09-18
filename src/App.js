@@ -1,7 +1,16 @@
+import { Fragment } from 'react';
+import Accessorize from './components/Accessorize/Accessorize';
 import Header from './components/Layout/Header';
 
 function App() {
-  return <Header />;
+  return (
+    <Fragment>
+      <Header />
+      <main>
+        <Accessorize />
+      </main>
+    </Fragment>
+  );
 }
 
 export default App;

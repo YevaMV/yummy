@@ -3,3 +3,18 @@
   font-size: 1.5rem;
   color: #ffffff;
 }
+
+.logo-block {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 5rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.logo-image img {
+  width: 100%;
+}
