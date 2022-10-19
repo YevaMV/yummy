@@ -1,10 +1,12 @@
 import { Fragment } from 'react';
-import Summary from '../components/Accessorize/Summary';
+import Summary from '../components/Layout/Summary';
+import Main from '../components/Layout/Main';
 
 const Home = () => {
   return (
     <Fragment>
-      <Summary />;
+      <Summary />
+      <Main />
     </Fragment>
   );
 };
