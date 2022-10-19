@@ -8,12 +8,14 @@ const Header = () => {
   return (
     <Fragment>
       <header className={classes.header}>
-        <Logo />
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">
+                <Logo />
+              </Link>
             </li>
+
             <li>
               <Link to="all-accessorize">All Accessorize</Link>
             </li>

@@ -11,14 +11,11 @@ function App() {
       <Header />
       <div>
         <Routes>
-          <Route path="/" element={<AllAccessorize />} exact />
+          <Route path="/" element={<Home />} exact />
           <Route path="all-accessorize" element={<AllAccessorize />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <main>
-        <Home />
-      </main>
     </Fragment>
   );
 }
