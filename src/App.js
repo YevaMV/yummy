@@ -1,16 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
-import { Fragment } from 'react';
 import Home from './pages/Home';
-import Header from './components/Layout/Header';
 import AllAccessorize from './pages/AllAccessorize';
 import Contact from './pages/Contact';
 import Card from './UI/Card';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <Fragment>
-      <Card>
-        <Header />
+    <Card>
+      <Layout>
         <div>
           <Routes>
             <Route path="/" element={<Home />} exact />
@@ -18,8 +16,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-      </Card>
-    </Fragment>
+      </Layout>
+    </Card>
   );
 }
 

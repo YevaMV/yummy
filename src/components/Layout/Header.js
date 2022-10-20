@@ -17,10 +17,10 @@ const Header = () => {
             </li>
 
             <li>
-              <Link to="all-accessorize">All Accessorize</Link>
+              <Link to="/all-accessorize">All Accessorize</Link>
             </li>
             <li>
-              <Link to="contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
