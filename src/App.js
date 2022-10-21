@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import AllAccessorize from './pages/AllAccessorize';
 import Contact from './pages/Contact';
-import Card from './UI/Card';
+import Card from './components/UI/Card';
 import Layout from './components/Layout/Layout';
 
 function App() {
