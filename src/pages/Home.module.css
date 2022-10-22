@@ -1,13 +1,18 @@
-section {
+.home-section {
   margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #3f3f3f;
 }
+
 h1 {
   font-family: 'Fredoka One', cursive;
   font-weight: 200;
+}
+
+p {
+  color: #b7b7b7;
 }
 
 .button {

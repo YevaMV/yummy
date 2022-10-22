@@ -1,4 +1,29 @@
 .icon {
   color: #40e0d0;
   font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #b7b7b7;
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  padding: 0;
+}
+
+.contact li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
+
+.contact li:last-child {
+  margin-bottom: 3rem;
+}
+
+h1 {
+  color: #ffffff;
 }

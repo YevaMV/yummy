@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Fragment>
       <Summary />
-      <section>
+      <section className={classes['home-section']}>
         <div>
           <h1>Yummy Accessorize</h1>
           <p>Happines is receving what you ordered online</p>
@@ -17,7 +17,6 @@ const Home = () => {
           <img src={image} alt="logo" />
         </div>
       </section>
-      ;
     </Fragment>
   );
 };
